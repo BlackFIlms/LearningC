@@ -19,9 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D54EFFAB-552E-4A11-8A60-C1578AF9A456}</ProjectGuid>
-    <RootNamespace>LearningC</RootNamespace>
+    <ProjectGuid>{37BE89E5-DC9F-4462-8B0C-F8B593F07B12}</ProjectGuid>
+    <RootNamespace>StepOneBasicConcepts</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>LearningC - StepOne - BasicConcepts</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -110,6 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="StepOne - BasicConcepts.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
