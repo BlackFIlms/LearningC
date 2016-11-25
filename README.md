@@ -11,7 +11,8 @@ Tasks - для задач которые я выполняю по мере об�
 {   
 - [x] Learn Basic concepts into C++
 - [x] Write first task (mathSquareOfTheTwoNumbers)
-- [ ] Record in the project Basic concepts into C++
+- [ ] Record in the project Basic concepts into C++   
+*   REInstall VS on the work computer
 - [x] Learn custom functions
 - [ ] Record in the project custom functions
 - [x] Learn IO functions
