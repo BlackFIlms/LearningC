@@ -9,24 +9,32 @@ Such as: basic operations, functions, standart IO functions.
 
 using namespace std; //Provide acces to std namespace.
 
-int mathX(/*Arguments writing there. Example ->*/int x)							//
+int x;
+
+int inMathX()
+{
+	cin >> x; //Request variable X.
+	return x;
+}
+
+int mathX(/*Arguments writing there. Example ->int x*/)									//
 {																						//
 	//Function body.																	//		<<< Function.
+	x = inMathX(); //IMPORTANT! without assignment is not working!!!					//
 	return x * x; //math square of the numbers.											//
 }																						//
 
-int callAndOutMathX()
+int outMathX()
 {
-	int x;
-	cin >> x; //Request variable X.
+	cout << mathX()/*Calling first function.*/ << endl;
 	return x;
-	cout << mathX(x)/*Calling first function.*/ << endl;
+
 }
 
 int main(void) //Primary function with empty arguments -> (void).
 {
 	//Write your code there =)
-	callAndOutMathX(); //Not work here. WTF??7
+	outMathX(); //Calling function. Don't working withou 23 line.
 	_getch(); //Wait inserting char.
 }
 
