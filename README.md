@@ -14,9 +14,9 @@ Tasks - для задач которые я выполняю по мере об�
 - [x] Record in the project Basic concepts into C++   
 *   REInstall VS on the work computer
 - [x] Learn custom functions
-- [ ] Record in the project custom functions
+- [x] Record in the project custom functions
 - [x] Learn IO functions
-- [ ] Record in the project IO functions
+- [x] Record in the project IO functions
 - [x] Learn conditionals and loops
 - [ ] Record in the project conditionals and loops
 - [ ] Learn classes and objects
