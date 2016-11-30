@@ -78,5 +78,21 @@ int main(void)
 		cout << "You insert number > 0 in variable!" << endl;		//
 	}																//
 
+	int n = 30;
+
+	int const const1 = 31;
+	int const const2 = 32;
+
+	switch (n)														//
+	{																//
+	case const1:													// if n == const1, execute.
+		break;														// if condition true — exit.
+	case const2:													// if n == const2, execute.
+		break;														//
+	default:														// if n == void, then execute default.
+		cout << "NOTHING" << endl;									//
+		break;														//
+	}																//
+
 	_getch();
 }
