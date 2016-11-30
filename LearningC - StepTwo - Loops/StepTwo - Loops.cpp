@@ -35,25 +35,24 @@ int main(void)
 
 	cout << ">>>>>>>> End of while loop! <<<<<<<<" << endl;	// Marking for console
 
-	do
-	{
-		if (y != 1)
-		{
-			cout << "Y != 1" << endl;
-		}
-		if (y == 1)
-		{
-			cout << "Y == 1" << endl;
-		}
-		cout << "enter new value for Y:" << endl;
-		cin >> y;
-		if (y != 1)
-		{
-			cout << "Y == ";
-			cout << y << endl;
-			cout << "This is finish for: do-while!" << endl;
-		}
-	} while (y == 1);
+	do {															// do While loop, this same While loop. But the condition is checked after executing loop body.
+		if (y != 1)													//
+		{															//
+			cout << "Y != 1" << endl;								// check and print Y == 1 or no
+		}															//
+		if (y == 1)													//
+		{															//
+			cout << "Y == 1" << endl;								// check and print Y == 1 or no
+		}															//
+		cout << "enter new value for Y:" << endl;					// Request from user new value for Y
+		cin >> y;													// Request from user new value for Y
+		if (y != 1)													// check and print Y == 1 or no
+		{															//
+			cout << "Y == ";										//
+			cout << y << endl;										//
+			cout << "This is finish for: do-while!" << endl;		//
+		}															//
+	} while (y == 1);												// check Y == 1 or no
 
 	_getch();
 }
