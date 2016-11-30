@@ -53,7 +53,7 @@ int main(void)
 			cout << "This is finish for: do-while!" << endl;		//
 		}															//
 	} while (y == 1);												// check Y == 1 or no.
-
+	
 	cout << ">>>>>>>> End of do-while loop! <<<<<<<<" << endl;	// Marking for console.
 
 	cout << "						" << endl;	//
@@ -77,17 +77,19 @@ int main(void)
 	{																//
 		cout << "You insert number > 0 in variable!" << endl;		//
 	}																//
-
+	
 	int n = 30;
 
-	int const const1 = 31;
-	int const const2 = 32;
+	int const const1 = 38;
+	int const const2 = 12;
 
-	switch (n)														//
+	switch (n)														// This is switch. He choice specific version case.
 	{																//
 	case const1:													// if n == const1, execute.
+		cout << "n = const1" << endl;								//
 		break;														// if condition true — exit.
 	case const2:													// if n == const2, execute.
+		cout << "n = const2" << endl;								//
 		break;														//
 	default:														// if n == void, then execute default.
 		cout << "NOTHING" << endl;									//
