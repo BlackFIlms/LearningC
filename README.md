@@ -18,7 +18,8 @@ Tasks - для задач которые я выполняю по мере об�
 - [x] Learn IO functions
 - [x] Record in the project IO functions
 - [x] Learn conditionals and loops
-- [ ] Record in the project conditionals and loops
+- [x] Record in the project conditionals and loops
+- [x] Write task #2: (FindTheRequiredVolumeOfWater)
 - [ ] Learn classes and objects
 - [ ] Record in the project classes and objects
 - [ ] Learn arrays and strings
