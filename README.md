@@ -20,6 +20,7 @@ Tasks - для задач которые я выполняю по мере об�
 - [x] Learn conditionals and loops
 - [x] Record in the project conditionals and loops
 - [x] Write task #2: (FindTheRequiredVolumeOfWater)
+- [x] Write task #3: (conStairs)
 - [ ] Learn classes and objects
 - [ ] Record in the project classes and objects
 - [ ] Learn arrays and strings
